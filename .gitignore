@@ -40,6 +40,7 @@ weights/*.pth
 /datasets/
 !src/data/
 !src/data/**
+src/data/**/__pycache__/
 *.zip
 *.tar.gz
 
