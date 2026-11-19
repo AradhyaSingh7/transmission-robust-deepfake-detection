@@ -1,0 +1,305 @@
+{
+  "Baseline": {
+    "Clean": {
+      "auc": 0.9993845,
+      "default_acc": 99.05000000000001,
+      "calibrated_acc": 99.1,
+      "calibrated_threshold": 0.34900000000000003,
+      "f1": 0.9904666332162569,
+      "mean_p_real": 0.008843445219099522,
+      "mean_p_fake": 0.9805008769035339
+    },
+    "JPEG Q=100": {
+      "auc": 0.99918225,
+      "default_acc": 98.6,
+      "calibrated_acc": 99.15,
+      "calibrated_threshold": 0.154,
+      "f1": 0.9858585858585859,
+      "mean_p_real": 0.006081924308091402,
+      "mean_p_fake": 0.9685862064361572
+    },
+    "JPEG Q=75": {
+      "auc": 0.9492560000000001,
+      "default_acc": 57.074999999999996,
+      "calibrated_acc": 81.45,
+      "calibrated_threshold": 0.999,
+      "f1": 0.6996676578625153,
+      "mean_p_real": 0.845270037651062,
+      "mean_p_fake": 0.9998345971107483
+    },
+    "JPEG Q=50": {
+      "auc": 0.9191374999999999,
+      "default_acc": 51.7,
+      "calibrated_acc": 75.825,
+      "calibrated_threshold": 0.999,
+      "f1": 0.6743088334457181,
+      "mean_p_real": 0.9504887461662292,
+      "mean_p_fake": 0.9997842311859131
+    },
+    "JPEG Q=25": {
+      "auc": 0.8742177499999999,
+      "default_acc": 50.824999999999996,
+      "calibrated_acc": 75.5,
+      "calibrated_threshold": 0.999,
+      "f1": 0.6702430846605197,
+      "mean_p_real": 0.964174747467041,
+      "mean_p_fake": 0.9986015558242798
+    },
+    "WebP Q=75": {
+      "auc": 0.9525085000000001,
+      "default_acc": 86.375,
+      "calibrated_acc": 88.775,
+      "calibrated_threshold": 0.864,
+      "f1": 0.8757693184408479,
+      "mean_p_real": 0.2415979653596878,
+      "mean_p_fake": 0.9505000114440918
+    },
+    "WebP Q=50": {
+      "auc": 0.9158357500000002,
+      "default_acc": 82.425,
+      "calibrated_acc": 84.22500000000001,
+      "calibrated_threshold": 0.858,
+      "f1": 0.8373814480684709,
+      "mean_p_real": 0.26497408747673035,
+      "mean_p_fake": 0.8898178935050964
+    },
+    "WebP Q=25": {
+      "auc": 0.8569597499999999,
+      "default_acc": 77.625,
+      "calibrated_acc": 77.925,
+      "calibrated_threshold": 0.584,
+      "f1": 0.782608695652174,
+      "mean_p_real": 0.2749935984611511,
+      "mean_p_fake": 0.7797844409942627
+    },
+    "Resize 75%": {
+      "auc": 0.9799632500000001,
+      "default_acc": 78.64999999999999,
+      "calibrated_acc": 93.125,
+      "calibrated_threshold": 0.002,
+      "f1": 0.7299177735610373,
+      "mean_p_real": 0.006123494356870651,
+      "mean_p_fake": 0.566205620765686
+    },
+    "Resize 50%": {
+      "auc": 0.9220965000000001,
+      "default_acc": 53.87499999999999,
+      "calibrated_acc": 82.6,
+      "calibrated_threshold": 0.001,
+      "f1": 0.14464534075104313,
+      "mean_p_real": 0.0017697990406304598,
+      "mean_p_fake": 0.0988280177116394
+    },
+    "Combined (Q50+Res75%)": {
+      "auc": 0.9443078749999999,
+      "default_acc": 67.65,
+      "calibrated_acc": 87.25,
+      "calibrated_threshold": 0.994,
+      "f1": 0.755109765329296,
+      "mean_p_real": 0.630146324634552,
+      "mean_p_fake": 0.9944749474525452
+    }
+  },
+  "Naive Aug (JPEG)": {
+    "Clean": {
+      "auc": 1.0,
+      "default_acc": 99.875,
+      "calibrated_acc": 100.0,
+      "calibrated_threshold": 0.09,
+      "f1": 0.9987484355444305,
+      "mean_p_real": 0.00011023887782357633,
+      "mean_p_fake": 0.9975738525390625
+    },
+    "JPEG Q=100": {
+      "auc": 1.0,
+      "default_acc": 99.775,
+      "calibrated_acc": 100.0,
+      "calibrated_threshold": 0.02,
+      "f1": 0.9977449260836883,
+      "mean_p_real": 4.127408828935586e-05,
+      "mean_p_fake": 0.9953314661979675
+    },
+    "JPEG Q=75": {
+      "auc": 0.99967725,
+      "default_acc": 98.925,
+      "calibrated_acc": 99.02499999999999,
+      "calibrated_threshold": 0.367,
+      "f1": 0.9892634207240949,
+      "mean_p_real": 0.013219482265412807,
+      "mean_p_fake": 0.9873860478401184
+    },
+    "JPEG Q=50": {
+      "auc": 0.99549475,
+      "default_acc": 96.675,
+      "calibrated_acc": 96.72500000000001,
+      "calibrated_threshold": 0.5680000000000001,
+      "f1": 0.9669565217391304,
+      "mean_p_real": 0.05107269436120987,
+      "mean_p_fake": 0.9642916321754456
+    },
+    "JPEG Q=25": {
+      "auc": 0.9534638750000002,
+      "default_acc": 87.825,
+      "calibrated_acc": 88.35,
+      "calibrated_threshold": 0.627,
+      "f1": 0.8779142642266232,
+      "mean_p_real": 0.14142514765262604,
+      "mean_p_fake": 0.8526722192764282
+    },
+    "WebP Q=75": {
+      "auc": 0.998162,
+      "default_acc": 94.69999999999999,
+      "calibrated_acc": 98.3,
+      "calibrated_threshold": 0.009000000000000001,
+      "f1": 0.9442691903259727,
+      "mean_p_real": 0.00437459722161293,
+      "mean_p_fake": 0.8942365646362305
+    },
+    "WebP Q=50": {
+      "auc": 0.98887,
+      "default_acc": 84.0,
+      "calibrated_acc": 95.0,
+      "calibrated_threshold": 0.004,
+      "f1": 0.8099762470308789,
+      "mean_p_real": 0.003948949743062258,
+      "mean_p_fake": 0.6767301559448242
+    },
+    "WebP Q=25": {
+      "auc": 0.9443505,
+      "default_acc": 68.525,
+      "calibrated_acc": 86.65,
+      "calibrated_threshold": 0.004,
+      "f1": 0.5430127041742286,
+      "mean_p_real": 0.006809175945818424,
+      "mean_p_fake": 0.38197222352027893
+    },
+    "Resize 75%": {
+      "auc": 0.99508025,
+      "default_acc": 60.0,
+      "calibrated_acc": 81.575,
+      "calibrated_threshold": 0.001,
+      "f1": 0.3333333333333333,
+      "mean_p_real": 7.338738896578434e-07,
+      "mean_p_fake": 0.20948350429534912
+    },
+    "Resize 50%": {
+      "auc": 0.9511907500000001,
+      "default_acc": 50.0,
+      "calibrated_acc": 55.275,
+      "calibrated_threshold": 0.001,
+      "f1": 0.0,
+      "mean_p_real": 4.84513020637678e-06,
+      "mean_p_fake": 0.0007342512253671885
+    },
+    "Combined (Q50+Res75%)": {
+      "auc": 0.97339525,
+      "default_acc": 60.0,
+      "calibrated_acc": 85.275,
+      "calibrated_threshold": 0.001,
+      "f1": 0.3333333333333333,
+      "mean_p_real": 5.75298436160665e-05,
+      "mean_p_fake": 0.20878566801548004
+    }
+  },
+  "Consistency (Cosine)": {
+    "Clean": {
+      "auc": 1.0,
+      "default_acc": 99.2,
+      "calibrated_acc": 100.0,
+      "calibrated_threshold": 0.004,
+      "f1": 0.9919354838709677,
+      "mean_p_real": 3.5712755561689846e-06,
+      "mean_p_fake": 0.9826807975769043
+    },
+    "JPEG Q=100": {
+      "auc": 0.999999,
+      "default_acc": 98.55000000000001,
+      "calibrated_acc": 99.925,
+      "calibrated_threshold": 0.001,
+      "f1": 0.9852866565195332,
+      "mean_p_real": 2.2358631213137414e-06,
+      "mean_p_fake": 0.9679523706436157
+    },
+    "JPEG Q=75": {
+      "auc": 0.99937625,
+      "default_acc": 95.475,
+      "calibrated_acc": 98.875,
+      "calibrated_threshold": 0.997,
+      "f1": 0.9567089213106912,
+      "mean_p_real": 0.099468894302845,
+      "mean_p_fake": 0.9991498589515686
+    },
+    "JPEG Q=50": {
+      "auc": 0.9923603750000001,
+      "default_acc": 83.95,
+      "calibrated_acc": 95.15,
+      "calibrated_threshold": 0.999,
+      "f1": 0.8615782664941786,
+      "mean_p_real": 0.32576146721839905,
+      "mean_p_fake": 0.9981333017349243
+    },
+    "JPEG Q=25": {
+      "auc": 0.9358314999999999,
+      "default_acc": 79.0,
+      "calibrated_acc": 85.9,
+      "calibrated_threshold": 0.996,
+      "f1": 0.8208191126279863,
+      "mean_p_real": 0.3875868320465088,
+      "mean_p_fake": 0.9580801725387573
+    },
+    "WebP Q=75": {
+      "auc": 0.99768525,
+      "default_acc": 95.575,
+      "calibrated_acc": 97.8,
+      "calibrated_threshold": 0.033,
+      "f1": 0.9539182504556105,
+      "mean_p_real": 0.004204457625746727,
+      "mean_p_fake": 0.9102877378463745
+    },
+    "WebP Q=50": {
+      "auc": 0.98430725,
+      "default_acc": 88.575,
+      "calibrated_acc": 93.675,
+      "calibrated_threshold": 0.007,
+      "f1": 0.8726664809139036,
+      "mean_p_real": 0.013215049169957638,
+      "mean_p_fake": 0.7802616357803345
+    },
+    "WebP Q=25": {
+      "auc": 0.9331788750000002,
+      "default_acc": 76.325,
+      "calibrated_acc": 85.375,
+      "calibrated_threshold": 0.002,
+      "f1": 0.7004112622587789,
+      "mean_p_real": 0.02789970114827156,
+      "mean_p_fake": 0.5540033578872681
+    },
+    "Resize 75%": {
+      "auc": 0.991581,
+      "default_acc": 65.625,
+      "calibrated_acc": 82.72500000000001,
+      "calibrated_threshold": 0.001,
+      "f1": 0.47619047619047616,
+      "mean_p_real": 5.706224897039647e-07,
+      "mean_p_fake": 0.3148750960826874
+    },
+    "Resize 50%": {
+      "auc": 0.9498004999999999,
+      "default_acc": 50.625,
+      "calibrated_acc": 58.675,
+      "calibrated_threshold": 0.001,
+      "f1": 0.024691358024691357,
+      "mean_p_real": 1.7389984350302257e-06,
+      "mean_p_fake": 0.016585607081651688
+    },
+    "Combined (Q50+Res75%)": {
+      "auc": 0.9745052500000001,
+      "default_acc": 72.55,
+      "calibrated_acc": 88.5,
+      "calibrated_threshold": 0.001,
+      "f1": 0.6216402481047554,
+      "mean_p_real": 0.001042224932461977,
+      "mean_p_fake": 0.4481525123119354
+    }
+  }
+}

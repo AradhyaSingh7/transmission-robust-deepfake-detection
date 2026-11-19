@@ -1,0 +1,92 @@
+{
+  "Clean": {
+    "auc": 0.9999915,
+    "default_acc": 99.45,
+    "calibrated_acc": 99.875,
+    "calibrated_threshold": 0.23,
+    "f1": 0.9944695827048768,
+    "mean_alpha": 0.5825240015983582,
+    "std_alpha": 0.12556134164333344
+  },
+  "JPEG Q=100": {
+    "auc": 0.999987,
+    "default_acc": 99.125,
+    "calibrated_acc": 99.8,
+    "calibrated_threshold": 0.137,
+    "f1": 0.9911727616645649,
+    "mean_alpha": 0.5910853147506714,
+    "std_alpha": 0.12812557816505432
+  },
+  "JPEG Q=75": {
+    "auc": 0.9987335,
+    "default_acc": 97.52499999999999,
+    "calibrated_acc": 98.32499999999999,
+    "calibrated_threshold": 0.6940000000000001,
+    "f1": 0.9756457564575646,
+    "mean_alpha": 0.6843199133872986,
+    "std_alpha": 0.1467365175485611
+  },
+  "JPEG Q=50": {
+    "auc": 0.989912,
+    "default_acc": 94.125,
+    "calibrated_acc": 94.975,
+    "calibrated_threshold": 0.6900000000000001,
+    "f1": 0.943030303030303,
+    "mean_alpha": 0.7326841950416565,
+    "std_alpha": 0.13665880262851715
+  },
+  "JPEG Q=25": {
+    "auc": 0.9333472500000002,
+    "default_acc": 82.675,
+    "calibrated_acc": 86.15,
+    "calibrated_threshold": 0.214,
+    "f1": 0.8064786372521642,
+    "mean_alpha": 0.808021605014801,
+    "std_alpha": 0.09263324737548828
+  },
+  "WebP Q=75": {
+    "auc": 0.9963015000000001,
+    "default_acc": 95.275,
+    "calibrated_acc": 96.975,
+    "calibrated_threshold": 0.225,
+    "f1": 0.9508196721311475,
+    "mean_alpha": 0.6964753270149231,
+    "std_alpha": 0.1205650046467781
+  },
+  "WebP Q=25": {
+    "auc": 0.91329875,
+    "default_acc": 77.925,
+    "calibrated_acc": 83.125,
+    "calibrated_threshold": 0.147,
+    "f1": 0.734276256394824,
+    "mean_alpha": 0.791420578956604,
+    "std_alpha": 0.10327474772930145
+  },
+  "Resize 75%": {
+    "auc": 0.997185,
+    "default_acc": 95.45,
+    "calibrated_acc": 97.32499999999999,
+    "calibrated_threshold": 0.171,
+    "f1": 0.952678107124285,
+    "mean_alpha": 0.6961190700531006,
+    "std_alpha": 0.15400253236293793
+  },
+  "Resize 50%": {
+    "auc": 0.967752,
+    "default_acc": 82.125,
+    "calibrated_acc": 90.7,
+    "calibrated_threshold": 0.11,
+    "f1": 0.7868852459016393,
+    "mean_alpha": 0.7646068334579468,
+    "std_alpha": 0.13550232350826263
+  },
+  "Combined (Q50+Res75%)": {
+    "auc": 0.98360125,
+    "default_acc": 93.075,
+    "calibrated_acc": 93.22500000000001,
+    "calibrated_threshold": 0.534,
+    "f1": 0.9313846916026752,
+    "mean_alpha": 0.756931483745575,
+    "std_alpha": 0.1265074461698532
+  }
+}
