@@ -364,7 +364,3 @@ This work extends the dual-stream architecture proposed by:
 ```
 
 ---
-
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
