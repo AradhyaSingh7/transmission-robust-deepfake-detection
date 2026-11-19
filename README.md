@@ -265,7 +265,25 @@ python evaluate.py
 
 This prints all three main tables from the paper (Baseline vs. Gated comparison, Branch Dissociation analysis, and the WebP Litmus Test) and exports `BENCHMARK_SUMMARY.md`.
 
-### 4. Run Unit Tests
+### 4. Train the Detector Locally
+
+```bash
+# Quick 1-epoch verification on local sample data
+python train.py --smoke-test
+
+# Train Dynamic Gated Fusion model
+python train.py --mode gated --epochs 8 --batch-size 32 --data-root path/to/dataset
+```
+
+### 5. Cloud & Kaggle Training Pipelines
+
+For the full-scale GPU training runs ($N=4,000$ and $100k$ dataset), the self-contained scripts in [`kaggle_scripts/`](kaggle_scripts/) can be executed directly in Kaggle/Colab:
+* **`01_baseline_ablation_study.py`**: 4-way baseline ablation study (`full`, `spatial_only`, `frequency_only`, `fusion_no_attention`)
+* **`02_cosine_consistency_training.py`**: Dual-stream training with latent cosine consistency regularization
+* **`03_webp_litmus_test.py`**: Out-of-domain WebP evaluation exposing shortcut learning
+* **`04_dynamic_gated_fusion.py`**: Complete Dynamic Gated Fusion training on mixed stress
+
+### 6. Run Unit Tests
 
 ```bash
 python -m unittest discover -s tests
@@ -302,6 +320,13 @@ transmission-robust-deepfake-detection/
 │   ├── real/                          # 4 authentic FFHQ facial photographs
 │   └── fake/                          # 4 StyleGAN-synthesized facial images
 │
+├── kaggle_scripts/                    # Standalone GPU experiment pipelines executed on Kaggle
+│   ├── 01_baseline_ablation_study.py  # Phase 1: 4-way baseline architecture ablation
+│   ├── 02_cosine_consistency_training.py # Phase 2: Latent cosine consistency training
+│   ├── 03_webp_litmus_test.py         # Phase 2: WebP out-of-domain litmus test
+│   ├── 04_dynamic_gated_fusion.py     # Phase 3: Dynamic Gated Fusion training
+│   └── README.md                      # Kaggle hardware & dataset execution guide
+│
 ├── results/                           # Audited benchmark metrics (JSON)
 │   ├── baseline_ablation_results.json # Full/Spatial/Frequency ablation across all conditions
 │   ├── dynamic_gated_fusion_results.json  # Gated model: accuracy, AUC, alpha per condition
@@ -315,6 +340,7 @@ transmission-robust-deepfake-detection/
 │
 ├── demo.py                            # CLI inference: single-image detection + forensic plot
 ├── evaluate.py                        # Reproduce all paper benchmark tables
+├── train.py                           # Training CLI: local model training & smoke testing
 ├── requirements.txt                   # Minimal dependencies
 ├── setup.py                           # pip-installable package configuration
 ├── .gitignore                         # Excludes data, checkpoints, caches
