@@ -35,9 +35,11 @@ weights/*.pt
 weights/*.pth
 !weights/README.md
 
-# Datasets
-data/
-datasets/
+# Datasets (only ignore root data directory, not src/data package)
+/data/
+/datasets/
+!src/data/
+!src/data/**
 *.zip
 *.tar.gz
 
