@@ -383,11 +383,9 @@ This work extends the dual-stream architecture proposed by:
 
 ```bibtex
 @article{singh2026transmission,
-  title   = {Transmission-Robust Deepfake Detection via Latent Feature
-             Regularization and Dynamic Gated Fusion},
+  title   = {Transmission-Robust Deepfake Detection via Latent Feature Regularization and Dynamic Gated Fusion},
   author  = {Singh, Aradhya and Sagar, Khushi},
-  journal = {Department of Computer Science and Engineering,
-             Netaji Subhas University of Technology},
+  journal = {Department of Computer Science and Engineering, Netaji Subhas University of Technology},
   year    = {2026}
 }
 ```
