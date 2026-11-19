@@ -21,6 +21,7 @@
 
 <p align="center">
   <a href="paper/Transmission_Robust_Deepfake_Detection_Paper.pdf"><b>📄 Read the Paper</b></a> · 
+  <a href="docs/PROJECT_TIMELINE.md"><b>📅 Research Timeline</b></a> · 
   <a href="#-quickstart"><b>🚀 Quickstart</b></a> · 
   <a href="#-benchmark-results"><b>📊 Results</b></a> · 
   <a href="#-architecture"><b>🏗️ Architecture</b></a>
@@ -333,7 +334,9 @@ transmission-robust-deepfake-detection/
 │   ├── consistency_ablation_results.txt   # Consistency regularization comparison
 │   └── litmus_result.txt              # WebP out-of-domain litmus test data
 │
-├── docs/figures/                      # High-resolution publication figures (13 figures)
+├── docs/
+│   ├── figures/                       # High-resolution publication figures (13 figures)
+│   └── PROJECT_TIMELINE.md            # Comprehensive research evolution and milestone progression
 ├── weights/                           # Model checkpoint storage (see weights/README.md)
 ├── tests/                             # Automated unit test suite
 │   └── test_pipeline.py               # 4 tests: transforms, gate routing, forward pass
