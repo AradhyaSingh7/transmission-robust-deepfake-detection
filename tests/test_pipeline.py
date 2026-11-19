@@ -1,7 +1,13 @@
 """
 Unit tests for Dual-Stream Architecture and Transformations
 """
+import sys
+import os
 import unittest
+
+# Ensure the project root is on the Python path so `src` is importable
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import torch
 import numpy as np
 from PIL import Image

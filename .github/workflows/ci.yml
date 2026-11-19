@@ -23,10 +23,14 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Unit Tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}
       run: |
         python -m unittest discover -s tests
 
     - name: Verify CLI Executable
+      env:
+        PYTHONPATH: ${{ github.workspace }}
       run: |
         python evaluate.py
         python demo.py --image samples/fake/fake_01.jpg
