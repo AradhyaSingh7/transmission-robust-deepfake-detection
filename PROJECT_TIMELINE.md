@@ -2,7 +2,7 @@
 
 **Project Title:** Transmission-Robust Deepfake Detection via Latent Feature Regularization and Dynamic Gated Fusion  
 **Authors:** Aradhya Singh & Khushi Sagar  
-**Affiliation:** Department of Computer Science and Engineering, Netaji Subhas University of Technology (NSUT), New Delhi  
+**Affiliation:** Department of Computer Science and Engineering, Netaji Subhas University of Technology (NSUT) 
 **Reference Foundation:** Kumar et al. (2026), *Scientific Reports* (Nature Portfolio), Vol. 16, Art. 16612  
 **Evaluation Benchmark:** 140k Real and Fake Faces Benchmark (FFHQ Real vs. StyleGAN Synthetic)  
 
