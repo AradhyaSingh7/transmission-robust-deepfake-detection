@@ -10,7 +10,6 @@
   <a href="#"><img src="https://img.shields.io/badge/ResNet--50-Dual_Backbone-blue" alt="ResNet-50"/></a>
   <a href="#"><img src="https://img.shields.io/badge/DCT-Frequency_Analysis-orange" alt="DCT"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Tests-4%2F4_Passing-brightgreen" alt="Tests Passing"/></a>
-  <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"/></a>
 </p>
 
 <p align="center">
